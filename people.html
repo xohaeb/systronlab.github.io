@@ -1,0 +1,35 @@
+---
+layout: page
+title: People
+description: Meet the SYSTRON team
+background: '/img/systron-team.jpg'
+---
+
+{% assign people = site.people | sort: "priority" | reverse %}
+{% for person in people %}
+
+<article class="post-preview">
+  <div class="row">
+      <div class="col-md-3">
+        {% if person.photo %}
+        <img class="img-thumbnail img-fluid border border-0 rounded-circle" src="{{ person.photo | prepend: site.baseurl | replace: '//', '/' }}">
+        {% else %}
+        <img class="img-thumbnail img-fluid border border-0 rounded-circle"
+          src="/img/people/placeholder.png">
+        {% endif %}
+      </div>
+      <div class="col-md-9">
+        <h2 class="post-title">{{ person.name }}</h2>
+        <h3 class="post-subtitle">{{ person.role }}</h3>
+        <p>{{ person.content | strip_html }}</p>
+        {% if person.site %}
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{ person.site }}" target="_blank">Visit Website &rarr;</a>
+        </div>
+        {% endif %}
+      </div>
+  </div>
+
+</article>
+<hr>
+{% endfor %}

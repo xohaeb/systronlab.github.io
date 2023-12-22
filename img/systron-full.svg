@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1685 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2024,0)">
+        <g id="Artboard1" transform="matrix(0.799734,0,0,0.575764,405.198,0)">
+            <rect x="2024.18" y="0" width="2106.29" height="612" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="2024.18" y="0" width="2106.29" height="612"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(2.09594,0,0,2.91125,1312.11,-918.791)">
+                    <text x="343.724px" y="445.539px" style="font-family:'Outfit-ExtraBold', 'Outfit';font-weight:800;font-size:179.971px;fill:white;">S<tspan x="445.048px 558.61px " y="445.539px 445.539px ">YS</tspan></text>
+                    <text x="661.553px" y="445.539px" style="font-family:'Outfit-ExtraBold', 'Outfit';font-weight:800;font-size:179.971px;fill:rgb(96,151,50);">TR<tspan x="895.156px " y="445.539px ">O</tspan>N</text>
+                </g>
+                <g transform="matrix(1.13964,0,0,1.58296,3377.48,-325.974)">
+                    <text x="343.724px" y="445.539px" style="font-family:'Outfit-ExtraBold', 'Outfit';font-weight:800;font-size:179.971px;fill:white;">L<tspan x="445.048px " y="445.539px ">a</tspan>b</text>
+                </g>
+                <g transform="matrix(4.20466,0,0,5.84025,577.41,-2032.67)">
+                    <text x="343.724px" y="445.539px" style="font-family:'Outfit-ExtraBold', 'Outfit';font-weight:800;font-size:32.916px;fill:rgb(96,151,50);">S<tspan x="363.079px 380.294px 395.798px 409.03px " y="445.539px 445.539px 445.539px 445.539px ">yste</tspan>m and Ne<tspan x="569.824px 583.32px 609.356px 628.514px 642.832px " y="445.539px 445.539px 445.539px 445.539px 445.539px ">twork</tspan> Oper<tspan x="746.188px " y="445.539px ">a</tspan>bility</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

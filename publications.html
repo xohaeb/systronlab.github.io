@@ -1,0 +1,32 @@
+---
+layout: page
+title: Publications
+background: '/img/smart-cities.jpg'
+---
+
+{% for publication in site.publications reversed %}
+
+<article class="post-preview">
+    <a href="{{ publication.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <h2 class="post-title">{{ publication.title }}</h2>
+    </a>
+    <p class="post-meta">
+        {{ publication.authors | array_to_sentence_string | truncatewords: 30 }}
+    </p>
+    <p>{{ publication.excerpt | strip_html | truncatewords: 30 }}</p>
+    <p class="post-meta">
+        {% if publication.venue %}
+        Published in {{ publication.venue }} &middot; Published on {{ publication.date | date: '%d %B %Y' }}
+        {% else %}
+        Published on {{ publication.date | date: '%d %B %Y' }}
+        {% endif %}
+        {% if publication.preprint %}
+        &middot; Preprint
+        {% endif %}
+    </p>
+
+</article>
+
+<hr>
+
+{% endfor %}

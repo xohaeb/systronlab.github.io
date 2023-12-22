@@ -1,0 +1,137 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading home-heading">
+            <h1>{{ site.title }}</h1>
+            {% if site.description %}
+            <span class="subheading">{{ site.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {% unless site.opportunities.size == 0 %}
+  <div class="container-fluid opportunities-banner mx-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2>Opportunities</h2>
+          {% for opportunity in site.opportunities %}
+            <article class="opportunity">
+              <a href="{{ opportunity.url | prepend: site.baseurl | replace: '//', '/' }}">
+                <h3 class="opportunity-title">{{ opportunity.title }}</h3>
+                <p class="opportunity-meta">Apply by {{ opportunity.closing | date: '%d %B %Y' }}</p>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endunless %}
+
+  <div class="container" id="research">
+    <h2>Our Research Themes</h2>
+
+    <div class="row">
+      {% for theme in site.research %}
+      <div class="col-lg-4 col-md-6 mx-auto research-topic">
+        <div class="card">
+          <img src="{{ theme.background | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">{{ theme.title }}</h5>
+            <p class="card-text">{{ theme.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <br>
+  </div>
+
+  <div class="container-fluid people-banner mx-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2>Our Research Team</h2>
+          <div class="row">
+          {% assign people = site.people | sort: "priority" | reverse %}
+          {% for person in people %}
+            <div class="col-sm-3 col-6 mx-auto text-center person">
+                {% if person.photo %}
+                <img class="img-thumbnail border border-0 rounded-circle"
+                  src="{{ person.photo | prepend: site.baseurl | replace: '//', '/' }}">
+                {% else %}
+                <img class="img-thumbnail border border-0 rounded-circle"
+                  src="/img/people/placeholder.png">
+                {% endif %}
+                <h3>{{ person.name }}</h3>
+                <p>{{ person.role }}</p>
+            </div>
+          {% endfor %}
+          </div>
+          <br>
+          <div class="clearfix text-center">
+            <a class="btn btn-secondary" href="{{"/people" | relative_url }}">Meet our team &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <!--{{ content }}-->
+
+        <h2>Latest News</h2>
+
+        <!-- Home Post List -->
+        {% for post in site.posts limit : 5 %}
+
+        <article class="post-preview">
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            {% else %}
+            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <p class="post-meta">
+            {% if post.author %}
+            Posted by {{ post.author }}
+            {% else %}
+            Posted
+            {% endif %}
+            on
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+          </p>
+        </article>
+
+        <hr>
+
+        {% endfor %}
+
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/news" | relative_url }}">View All News &rarr;</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
