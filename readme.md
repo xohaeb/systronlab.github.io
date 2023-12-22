@@ -24,7 +24,8 @@
     <li>
       <a href="#adding-and-updating-content">Adding and Updating Content</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#adding-a-new-opportunity">Adding a new Opportunity</a></li>
+        <li><a href="#adding-a-new-person">Adding a new Person</a></li>
       </ul>
     </li>
     <li>
@@ -32,6 +33,9 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
+    </li>
+    <li>
+      <a href="#systron-brand">SYSTRON Brand</a>
     </li>
   </ol>
 </details>
@@ -52,20 +56,72 @@ To update the site, simply follow the instructions in the rest of this document.
 <!-- ADDING AND UPDATING CONTENT -->
 ## Adding and Updating Content
 
-Follow these instructions.
+This site is primarily written using markdown. When you commit a new markdown file, it will automatically be processed by Jekyll into a webpage, making it incredibly simple to add new content.
+
+You can update content by modifying the site's markdown files, which all end in `.md`. These are housed in the root directory, or in:
+
+- `_opportunities` for job, PhD or research opportunities
+- `_people` for members of the SYSTRON team
+- `_publications` for research outputs (with supporting files, such as PDFs, in `/files/publications/`)
+- `_research` for research themes
+- `news/_posts` for news items
+
+### Adding a new Opportunity
+
+Make a copy of the template `_opportunities/template.md` and complete the mandatory fields:
+
+- `title`, such as what the position will be
+- `date` of publication
+- `closing`, when the applicant must apply before
+
+Then add an overview of the role, or the role description, to the main body. These can by stylised using markdown or HTML.
+
+You can optionally add:
+
+- `subtitle`, such as the research theme or funder
+- `salary`, the advertised salary bracket
+- `link` to an external place to apply
+- `background` to provide a background image (also used in Twitter, Facebook and LinkedIn cards)
+
+### Adding a new Person
+
+Make a copy of the template `_people/template.md` and complete the mandatory fields:
+
+- `name`, the person's name
+- `role`, the person's role
+
+Then add a short description of the person and/or their resarch to the main body of the file.
+
+You can optionally add:
+
+- `photo`, the path to a person's photo, if uploaded to `/img/people`. If this isn't present, it'll default to a placeholder image
+- `site`, the person's personal website
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MODIFYING THE TEMPLATE -->
 ## Modifying the Template
 
+This site is written in Jekyll, and then published to GitHub Pages. To modify the underlying template, you can edit the HTML files and publish these as commits, but it is recommended to create a local copy and test these changes first.
+
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* Anaconda
-  ```sh
-  conda 
-  ```
+- Ruby (2.5.0+)
+- RubyGems
+
+Install Jekyll and Bundler:
+
+```bash
+gem install jekyll bundler
+```
+
+Then in the same directory as this site's files, run:
+
+```bash
+bundle exec jekyll serve
+```
+
+This should run a local copy of the site, accessible from `localhost:4000`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
