@@ -3,10 +3,12 @@ layout: opportunity
 title: "PhD Studentship for ALBERT CDT"
 subtitle: "Communication Failure Effects on Human Behaviour in Autonomous Robotic Laboratory (ARL) Environments"
 date: 2023-11-20 12:09:27 +0000
-closing: 2023-12-29 12:09:27 +0100
+closing: 2023-01-31 17:00:00 +0000
 background: '/img/5g-networks.jpg'
 link: 'https://www.findaphd.com/phds/project/albert-cdt-project-communication-failure-effects-on-human-behaviour-in-autonomous-robotic-laboratory-arl-environments/?p166368'
 ---
+
+> Extended deadline for applications: 17:00 GMT on Wednesday 31 January 2024.
 
 ## Supervisory Team
 
