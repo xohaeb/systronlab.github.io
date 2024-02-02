@@ -70,7 +70,7 @@ layout: default
           <div class="row">
           {% assign people = site.people | sort: "priority" | reverse %}
           {% for person in people %}
-            <div class="col-sm-3 col-6 mx-auto text-center person">
+            <div class="col-sm-4 col-6 mx-auto text-center person">
                 {% if person.photo %}
                 <img class="img-thumbnail border border-0 rounded-circle"
                   src="{{ person.photo | prepend: site.baseurl | replace: '//', '/' }}">
