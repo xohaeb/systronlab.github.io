@@ -1,7 +1,7 @@
 ---
 name: "Dr Kangfeng Ye"
 role: "Research Associate"
-photo: '/img/people/randall.ong'
+photo: '/img/people/randall.png'
 site: 'https://www-users.york.ac.uk/~ky582/'
 ---
 
