@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Future of Wireless Networking" # The main article title
-date: 2024-02-13 12:00:00 +0000 # Article date, in the form YYYY-MM-DD HH-MM-SS +0000
+date: 2024-02-13 08:00:00 +0000 # Article date, in the form YYYY-MM-DD HH-MM-SS +0000
 subtitle: "Dr Yadav contributes to UKTIN Future Capability Paper" # OPTIONAL: A subtitle. If not used, the first 15 words of the content will be used instead.
 background: '/img/wireless-network.jpg'
 ---
