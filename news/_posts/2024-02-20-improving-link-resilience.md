@@ -6,7 +6,7 @@ subtitle: "Rehab Alawadh presents poster paper in Coventry"
 background: '/img/posts/2024-rehab-alawadh-poster-presentation.png'
 ---
 
-Rehab Alawadh has presented a research poster about her research at the Saudi Conference on Scholarly Research and Innovation in Coventry. You can [view the poster on our website](/publications/2024-improving-link-resilience-in-software-defined-internet-of-things-networking/).
+Rehab Alawadh has presented a research poster about her research at the Saudi Conference on Scholarly Research and Innovation in Coventry. You can [view the poster on our website](/publications/2024-improving-link-resilience-in-software-defined-internet-of-things-networking).
 
 Rehab also presented to the Saudi culture Attaché:
 
