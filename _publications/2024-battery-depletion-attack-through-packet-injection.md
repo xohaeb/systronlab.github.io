@@ -14,5 +14,9 @@ file: "/files/publications/2024-battery-depletion-attack-through-packet-injectio
 In the rapidly expanding landscape of Internet of Things (IoT) device manufacturing and deployment, concerns about security have become prominent. This demonstration involves practical attacks on a thread-mesh network within a controlled environment, exploiting vulnerabilities in various components of the Thread network stack. Our attack vectors successfully identified nearby Thread networks and devices by gathering 2-byte Personal Area Network ID (PAN ID) and device frequency information, serving as reconnaissance for potential additional attacks. The focus was on investigating susceptibility to replay attacks and packet injection into thread-mesh networks. Although the experiment attempted to capture thread packets to emulate an authorised sender, the cryptographic encryption and sequence numbers employed for integrity checks resulted in packet rejection by the network. Despite this, our successful injection of packets highlights the potential for battery depletion attacks.
 
 <div class="clearfix">
+    <a class="btn btn-secondary float-left" href="https://github.com/SystronLab/ThreadBatteryAttack/" target="_blank">View Repository &rarr;</a>
+    <a class="btn btn-secondary float-right" href="https://www.youtube.com/playlist?list=PLLdryWn5PKavOXsef-qLGpMRhmR3wfp8l" target="_blank">View Demos (YouTube Playlist) &rarr;</a>
+</div><br>
+<div class="clearfix">
     <a class="btn btn-primary float-left" href="/files/publications/2024-poster-battery-depletion-attack-through-packet-injection-on-iot-thread-mesh-network.pdf">View Poster &rarr;</a>
-</div>
+</div><br>
