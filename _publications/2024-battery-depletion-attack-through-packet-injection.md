@@ -16,7 +16,7 @@ In the rapidly expanding landscape of Internet of Things (IoT) device manufactur
 <div class="clearfix">
     <a class="btn btn-secondary float-left" href="https://github.com/SystronLab/ThreadBatteryAttack/" target="_blank">View Repository &rarr;</a>
     <a class="btn btn-secondary float-right" href="https://www.youtube.com/playlist?list=PLLdryWn5PKavOXsef-qLGpMRhmR3wfp8l" target="_blank">View Demos (YouTube Playlist) &rarr;</a>
-</div><br>
+</div>
 <div class="clearfix">
     <a class="btn btn-primary float-left" href="/files/publications/2024-poster-battery-depletion-attack-through-packet-injection-on-iot-thread-mesh-network.pdf">View Poster &rarr;</a>
-</div><br>
+</div>
