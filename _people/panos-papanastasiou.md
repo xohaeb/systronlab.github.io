@@ -1,6 +1,7 @@
 ---
 name: "Dr Panos Papanastasiou"
 role: "Research Associate"
+photo: '/img/people/panos.png'
 ---
 
-Dr Panagiotis (Panos) Papanastasiou is a Research Associate within the SYSTRON Lab, working on the [EPSRC CHEDDAR project](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/X040518/1). His previous work has prmarily focused on quantum cryptography and quantum key distribution.
+Dr Panagiotis (Panos) Papanastasiou is a Research Associate within the SYSTRON Lab. His interest is Quantum Cryptography and specifically how we can enhance Network security by using hybrid settings of PQC and QKD in wireless communications.
