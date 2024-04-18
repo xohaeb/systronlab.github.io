@@ -16,4 +16,4 @@ Presenting the work of Louis Hatton and Dr Poonam Yadav. You can [read this abst
 
 ## From Internet to Emulator: A Virtual Testbed for Internet Routing Protocols
 
-A presentation on ongoing research by Joshua Levett, Dr Poonam Yadav, and Dr Vassilios Vassilakis. You can [read the abstract from the presentation](/publications/2024-from-internet-to-emulator/).
+A presentation on ongoing research by Joshua Levett, Dr Poonam Yadav, and Dr Vassilios Vassilakis. You can [read the abstract from the presentation](/publications/2024-from-internet-to-emulator).
