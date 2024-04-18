@@ -6,7 +6,7 @@ subtitle: "Presenting at the UK Systems Workshop 2024"
 background: '/img/posts/poonam-at-uksystems-workshop.jpg'
 ---
 
-Today Dr Poonam Yadav and Joshua Levett from the SYSTRON Lab have been presenting their work at the UK Systems Workshop 2024, at Redworth Hall in County Durham.
+Today Dr Poonam Yadav and Joshua Levett from the SYSTRON Lab have been presenting their work [at the UK Systems Workshop 2024](https://uksystems.org/workshop/2024/), at Redworth Hall in County Durham.
 
 ## Enabling User Control in IoT Device Traffic Management through Enhanced Open-Source MUD Manager Interface
 
