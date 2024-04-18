@@ -1,0 +1,14 @@
+---
+layout: publication
+title: "Enabling User Control in IoT Device Traffic Management through Enhanced Open-Source MUD Manager Interface"
+date: 2024-04-18 12:00:00 +0000
+authors:
+- Louis Hatton
+- Poonam Yadav
+venue: "UK Systems Workshop 2024"
+file: "/files/publications/2024-abstract-enabling-user-control-in-iot-device-traffic-management.pdf"
+preprint: true
+---
+
+The Manufacturer Usage Description (MUD) standard introduces a clear approach to enforcement of Internet of Things (IoT) device network traffic. It requires manufacturers to define the network behavior of their IoT devices within a MUD file, which is a JSON encoded YANG model containing access control lists (ACLs). These rules can be enforced at the network level by a network administrator or MUD manager to limit a device’s network activities to the provided requirements. This allows the IoT devices to function normally with out providing them unrestricted network access therefore introducing greater privacy and control over devices. In addition, when using a MUD manager this enforcement process is automatic and reduces the effort needed to secure IoT
+devices especially in larger networks. However, for an end user it’s difficult to understand or view the current state of the system with MUD files alone. Furthermore, as MUD policies are defined by the manufacturers, the network requirements of the device may not match the policies or rules in place for the network they are connected to. Currently, users have no control over the policies being applied and have no way to override them without technical and complex changes. This application solves these problems. As an expansion to osMUD, an open-source MUD manager, the application adds a user interface and user policy manager to give users more control over which MUD policies are being enforced and for which device on the network. By connecting to the database which osMUD updates, the user can see a live view of the system with a list of all the devices currently being tracked by osMUD and interact with the individual MUD files attached to them. The user interface provides the user the ability to easily remove any policies as required to create a custom user defined policy. These user policies are handled by the user policy manager and sent directly to osMUD to be enforced on the network automatically. The application runs alongside osMUD with little changes required making it easy to install into a new or already existing MUD enforced network. In addition, the ability for quick iterations and changes to MUD files makes using and interacting with MUD easier for users which lowers the barrier to entry to running a MUD enforced network. This application is in an early-stage of development with new features, including automatically creating MUD files PCAPs and managing MUD file history per device, planned for the future.
