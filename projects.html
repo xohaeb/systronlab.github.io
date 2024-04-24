@@ -1,0 +1,25 @@
+---
+layout: page
+title: Projects
+background: '/img/smart-cities.jpg'
+---
+
+{% for project in site.projects reversed %}
+
+<article class="post-preview">
+    <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <h2 class="post-title">{{ project.title }}</h2>
+    </a>
+    <p class="post-meta">
+        Authors: {{ project.authors | array_to_sentence_string | truncatewords: 30 }}
+    </p>
+    <p>{{ project.desc | strip_html }}</p>
+    <p class="post-meta">
+        Published on {{ project.date | date: '%d %B %Y' }}
+    </p>
+
+</article>
+
+<hr>
+
+{% endfor %}
