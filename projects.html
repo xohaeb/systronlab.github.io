@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-background: '/img/smart-cities.jpg'
+background: "/img/smart-cities.jpg"
 ---
 
 {% for project in site.projects reversed %}
@@ -11,15 +11,16 @@ background: '/img/smart-cities.jpg'
         <h2 class="post-title">{{ project.title }}</h2>
     </a>
     <p class="post-meta">
-        Authors: {{ project.authors | array_to_sentence_string | truncatewords: 30 }}
+        {{ project.authors | array_to_sentence_string | truncatewords: 30 }}
     </p>
+    {% if project.desc %}
     <p>{{ project.desc | strip_html }}</p>
-    <p class="post-meta">
-        Published on {{ project.date | date: '%d %B %Y' }}
-    </p>
-
+    {% else %}
+    <p>{{ project.excerpt | truncatewords: 30 |strip_html }}</p>
+    {% endif %}
+    <p class="post-meta">Published on {{ project.date | date: '%d %B %Y' }}</p>
 </article>
 
-<hr>
+<hr />
 
 {% endfor %}

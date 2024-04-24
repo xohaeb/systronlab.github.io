@@ -12,5 +12,4 @@ file: "/files/publications/template.pdf" # OPTIONAL: A path to the publication
 preprint: true # OPTIONAL: Delete if the publication is not a preprint
 background: '' # OPTIONAL: Defaults to site colour background if not used.
 ---
-
 <!-- PUT PUBLICATION ABSTRACT OR CONTENT HERE (IN HTML OR MARKDOWN) -->
