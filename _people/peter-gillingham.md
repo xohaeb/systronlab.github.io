@@ -1,7 +1,7 @@
 ---
 name: "Peter Gillingham"
 role: "Research Software Engineer"
-photo: '/img/people/poonam.png'
+photo: '/img/people/peter.png'
 site: ''
 ---
 
