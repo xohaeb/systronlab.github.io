@@ -7,40 +7,27 @@ background: "/img/smart-cities.jpg"
 {% for project in site.projects reversed %}
 
 <article class="post-preview">
-    <div class="row">
-        <div class="col-md-8">
-            <a
-                href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}"
-            >
-                <h2 class="post-title">{{ project.title }}</h2>
-            </a>
-            <p class="post-meta">
-                {{ project.authors | array_to_sentence_string | truncatewords:
-                30 }}
-            </p>
-            {% if project.desc %}
-            <p>{{ project.desc | strip_html }}</p>
-            {% else %}
-            <p>{{ project.excerpt | truncatewords: 30 |strip_html }}</p>
-            {% endif %}
-            <p class="post-meta">
-                Published on {{ project.date | date: '%d %B %Y' }}
-            </p>
-        </div>
-        <div class="col-md-4">
-            {% if project.photo %}
-            <img
-                class="img-thumbnail"
-                src="{{ project.photo | prepend: site.baseurl | replace: '//', '/' }}"
-            />
-            {% else %}
-            <img
-                class="img-thumbnail"
-                src="/img/internet-globe.jpg"
-            />
-            {% endif %}
-        </div>
-    </div>
+    <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <h2 class="post-title">{{ project.title }}</h2>
+    </a>
+    <p class="post-meta">
+        {{ project.authors | array_to_sentence_string | truncatewords: 30 }}
+    </p>
+    {% if project.desc %}
+    <p>{{ project.desc | strip_html }}</p>
+    {% else %}
+    <p>{{ project.excerpt | truncatewords: 30 |strip_html }}</p>
+    {% endif %}
+    <p class="post-meta">Published on {{ project.date | date: '%d %B %Y' }}</p>
+    <img
+        style="
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+        "
+        src="{{ project.image | prepend: site.baseurl | replace: '//', '/' }}"
+    />
 </article>
 
 <hr />

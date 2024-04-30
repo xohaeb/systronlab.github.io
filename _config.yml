@@ -68,6 +68,7 @@ exclude:
   - _publications/template.md
   - _research/template.md
   - _projects/template.md
+  - _projects/test-project.md
   - readme.md
   - .sass-cache/
   - .jekyll-cache/

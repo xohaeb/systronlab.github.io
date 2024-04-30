@@ -22,25 +22,18 @@ layout: default
                                 ></span>
                                 &rarr;</a
                             >
+                            <br />
+                            <br />
                             {% endif %}
-                            <br />
-                            <br />
                             <span class="meta">
                                 Published on {{ page.date | date: '%d %B %Y' }}
                             </span>
                         </div>
                         <div class="col-md-3">
-                            {% if page.photo %}
                             <img
                                 class="img-thumbnail"
-                                src="{{ page.photo | prepend: site.baseurl | replace: '//', '/' }}"
+                                src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}"
                             />
-                            {% else %}
-                            <img
-                                class="img-thumbnail"
-                                src="/img/internet-globe.jpg"
-                            />
-                            {% endif %}
                         </div>
                     </div>
                 </div>
