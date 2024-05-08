@@ -21,11 +21,11 @@
 title: SYSTRON Lab
 author: SYSTRON Lab
 
-description: >-
-  We are the System and Network Interoperability (SYSTRON) Lab, exploring distributed systems, interoperability, and network technologies.
-domain: systronlab.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://systronlab.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /      # place folder name if the site is served in a subfolder
+description: We are the System and Network Interoperability (SYSTRON) Lab,
+  exploring distributed systems, interoperability, and network technologies.
+domain: systronlab.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://systronlab.github.io/ # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: / # place folder name if the site is served in a subfolder
 
 # Profiles
 github_username: SystronLab
@@ -41,6 +41,9 @@ collections:
     output: false
     sort_by: index
   publications:
+    output: true
+    sort_by: date
+  projects:
     output: true
     sort_by: date
   research:
@@ -59,20 +62,22 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-- news/_posts/template.md
-- _opportunities/template.md
-- _people/template.md
-- _publications/template.md
-- _research/template.md
-- readme.md
-- .sass-cache/
-- .jekyll-cache/
-- gemfiles/
-- Gemfile
-- Gemfile.lock
-- node_modules/
-- vendor/bundle/
-- vendor/cache/
-- vendor/gems/
-- vendor/ruby/
-- _archive/
+  - news/_posts/template.md
+  - _opportunities/template.md
+  - _people/template.md
+  - _publications/template.md
+  - _research/template.md
+  - _projects/template.md
+  - _projects/test-project.md
+  - readme.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - _archive/
