@@ -97,6 +97,19 @@ You can optionally add:
 - `photo`, the path to a person's photo, if uploaded to `/img/people`. If this isn't present, it'll default to a placeholder image
 - `site`, the person's personal website
 
+
+### Adding a new Project
+
+Make a copy of the template `_projects/template.md` and complete the mandatory fields:
+ - `authors`, the authors name(s)
+ - `title`, the project title
+ - `desc`, a description from the project
+
+ Then add the contents of the project article to the main body of the file.
+
+You can optionally add:
+ - `image`, the path to an image associated with the project.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MODIFYING THE TEMPLATE -->
