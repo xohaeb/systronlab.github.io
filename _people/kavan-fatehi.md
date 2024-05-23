@@ -1,5 +1,5 @@
 ---
-name: "Kavan Fatehi" # The person's name
+name: "Dr Kavan Fatehi" # The person's name
 role: "Research Associate" # The person's role (e.g. "PhD Student")
 photo: '/img/people/kavan.jpg' # OPTIONAL: If not used, it will use the placeholder photo
 ---
