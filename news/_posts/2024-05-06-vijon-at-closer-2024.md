@@ -2,7 +2,7 @@
 layout: post
 title: "Vijon presents at CLOSER 2024"
 date: 2024-05-21 14:00:00 +0200
-subtitle: "Architecture and routing in a geopolitical world"
+subtitle: "Responsible Information Sharing in the Era of Big Data Analytics Facilitating Digital Economy Through the Use of Blockchain Technology and Observing GDPR"
 author: Vijon Baraku
 background: '/img/posts/vijon-at-closer-2024.jpg'
 ---
@@ -18,5 +18,5 @@ The conference provided me with the opportunity not only to present my work, but
 Overall, presenting at CLOSER 2024 has been an important milestone in my academic career, broadening my knowledge and strengthening my commitment to promoting responsible information sharing in the digital economy.
 
 <div class="clearfix">
-    <a class="btn btn-primary float-right" href="https://www.scitepress.org/PublicationsDetail.aspx?ID=lFIRNCpoyI0=&t=1" target="_blank">View the Slides</a>
+    <a class="btn btn-primary float-right" href="https://www.scitepress.org/PublicationsDetail.aspx?ID=lFIRNCpoyI0=&t=1" target="_blank">Read the Paper</a>
 </div>
