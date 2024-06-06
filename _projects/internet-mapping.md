@@ -6,7 +6,7 @@ authors:
 - Joshua Levett
 - Vassilios Vassilakis
 - Poonam Yadav
-image: '/img/wifi-router.jpg'
+image: '/img/projects/internet-topology-mapping.png'
 desc: Exploring Internet architecture to improve Internet routing protocols.
 ---
 
@@ -21,4 +21,4 @@ There are a small number of nation states that do not follow this trend, for whi
 
 ## Codebase
 
-*Pending release*. We hope to publish the code from our Internet topology fusion tool, responsible for the multi-source data collection, in the coming days.
+- [LevettJ/internet-topology-mapping (GitHub)](https://github.com/LevettJ/internet-topology-mapping): initial version using BGP data without Atlas traceroute probes.
