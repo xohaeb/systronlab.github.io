@@ -4,32 +4,31 @@ title: Projects
 background: "/img/smart-cities.jpg"
 ---
 
+<div class="row">
 {% for project in site.projects reversed %}
 
-<article class="post-preview">
-    <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
-        <h2 class="post-title">{{ project.title }}</h2>
-    </a>
-    <p class="post-meta">
-        {{ project.authors | array_to_sentence_string | truncatewords: 30 }}
-    </p>
-    {% if project.desc %}
-    <p>{{ project.desc | strip_html }}</p>
-    {% else %}
-    <p>{{ project.excerpt | truncatewords: 30 |strip_html }}</p>
-    {% endif %}
-    <p class="post-meta">Published on {{ project.date | date: '%d %B %Y' }}</p>
-    <img
-        style="
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 60%;
-        "
-        src="{{ project.image | prepend: site.baseurl | replace: '//', '/' }}"
-    />
-</article>
+<div class="col-lg-4 col-md-6 mx-auto research-topic">
+    <div class="card">
+        <img src="{{ project.image | prepend: site.baseurl | replace: '//', '/' }}" class="card-img-top" alt="">
+        <div class="card-body">
+        <h5 class="card-title">{{ project.title }}</h5>
 
-<hr />
+        <h6 class="card-subtitle text-muted">
+            {{ project.authors | array_to_sentence_string | truncatewords: 30 }}
+        </h6>
+
+        {% if project.desc %}
+        <p class="card-text">{{ project.desc | strip_html }}</p>
+        {% else %}
+        <p class="card-text">{{ project.excerpt | truncatewords: 30 | strip_html }}</p>
+        {% endif %}
+
+        <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-primary">Read more &rarr;</a>
+
+        </div>
+    </div>
+</div><br />
 
 {% endfor %}
+
+</div>
