@@ -1,0 +1,6 @@
+---
+ layout: post 
+ title: TEST ARTICLE 
+ date: 2024-06-19:00:00 +0000
+---
+ TEST ARTICLE WITH AN IMAGE UPLOADED
