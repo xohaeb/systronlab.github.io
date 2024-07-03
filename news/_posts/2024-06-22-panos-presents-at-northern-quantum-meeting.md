@@ -14,5 +14,5 @@ We investigate the performance of Indoors CV-QKD with trusted preparation noise 
 In particular, we assume that Alice sends only a finite number of signals to create a shared secret key with Bob while she uses a low-cost calibrated laser that adds trusted noise to the signal before its transmission through the untrusted channel.
 
 <div class="clearfix">
-    <a class="btn btn-primary float-right" href="/files/2024-presentation-cv-qkd-with-preparation-noise">View the Slides</a>
+    <a class="btn btn-primary float-right" href="/files/2024-presentation-cv-qkd-with-preparation-noise.pdf">View the Slides</a>
 </div>
