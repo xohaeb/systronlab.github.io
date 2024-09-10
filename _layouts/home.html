@@ -64,31 +64,27 @@ layout: default
 
   <div class="container-fluid people-banner mx-auto">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <h2>Our Research Team</h2>
-          <div class="row">
-          {% assign people = site.people | sort: "priority" | reverse %}
-          {% for person in people %}
-            <div class="col-sm-4 col-6 mx-auto text-center person">
-                {% if person.photo %}
-                <img class="img-thumbnail border border-0 rounded-circle"
-                  src="{{ person.photo | prepend: site.baseurl | replace: '//', '/' }}">
-                {% else %}
-                <img class="img-thumbnail border border-0 rounded-circle"
-                  src="/img/people/placeholder.png">
-                {% endif %}
-                <h3>{{ person.name }}</h3>
-                <p>{{ person.role }}</p>
-            </div>
-          {% endfor %}
+        <h2>Our Research Team</h2>
+        <div class="row">
+        {% assign people = site.people | sort: "priority" | reverse %}
+        {% for person in people %}
+          <div class="col-sm-3 col-4 mx-auto text-center person">
+              {% if person.photo %}
+              <img class="img-thumbnail border border-0 rounded-circle"
+                src="{{ person.photo | prepend: site.baseurl | replace: '//', '/' }}">
+              {% else %}
+              <img class="img-thumbnail border border-0 rounded-circle"
+                src="/img/people/placeholder.png">
+              {% endif %}
+              <h3>{{ person.name }}</h3>
+              <p>{{ person.role }}</p>
           </div>
-          <br>
-          <div class="clearfix text-center">
-            <a class="btn btn-secondary" href="{{"/people" | relative_url }}">Meet our team &rarr;</a>
-          </div>
+        {% endfor %}
         </div>
-      </div>
+        <br>
+        <div class="clearfix text-center">
+          <a class="btn btn-secondary" href="{{"/people" | relative_url }}">Meet our team &rarr;</a>
+        </div>
     </div>
   </div>
 
