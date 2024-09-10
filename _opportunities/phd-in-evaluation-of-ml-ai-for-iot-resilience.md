@@ -2,7 +2,7 @@
 layout: opportunity
 title: "Funded PhD in Evaluation of ML/AI in IoT Edge Network Resilience"
 date: 2024-06-17 12:00:00 +0000
-closing: 2024-07-12 12:00:00 +0000
+closing: 2024-12-31 12:00:00 +0000
 subtitle: "Evaluation of ML/AI techniques to increase the resilience of IoT Edge networks under cyberattacks"
 ---
 
@@ -46,7 +46,7 @@ Candidates must apply for a PhD in Computer Science at the University of York an
 
 ## Application Deadline
 
-All applications must be received by 2nd July 2024. Only on-time applications will be considered. Find out more here at: https://www.york.ac.uk/study/postgraduate-research/apply/
+Applications are accepted all year round. Find out more here at: https://www.york.ac.uk/study/postgraduate-research/apply/
 
 ## Contact Information
 
