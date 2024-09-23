@@ -3,9 +3,12 @@ layout: post
 title: "Reem shares her research in Leeds on data-sharing in autonomous vehicles"
 date: 2024-07-23 12:00:00 +0000
 subtitle: "Hyperledger Fabric Platform for Secure and Efficient Data Sharing in Autonomous Vehicles."
+background: '/img/posts/reem-presenting-at-wincom.jpg'
 ---
 
 In July, Reem Alhabib presented at the [11th International Conference on Wireless Networks and Mobile Communications (WINCOM 2024)](https://www.wincom-conf.org/WINCOM_2024/), sharing her work on using hyperledger fabric to share data from autonomous vehicles in a secure and efficient manner, providing the possibility to share sensor readings, environment information and user data, potentially revolutionising transportation.
+
+![Reem presenting at WINCOM 2024](/img/posts/reem-presenting-at-wincom.jpg)
 
 You can [read the published paper, titled: "Hyperledger Fabric Platform for Secure and Efficient Data Sharing in Autonomous Vehicles"](/publications/2024-hyperledger-fabric-platform), which is available through IEEE or in open access through the White Rose Consortium.
 
