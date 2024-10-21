@@ -44,6 +44,7 @@ This segment explores the integration of the open-source E2 node srsRAN with ope
 srsRAN is a 4G and 5G software radio suite that includes a core network, gNB, and user equipment (UE) implementation. While gNB and UE typically use physical radios for over-the-air transmissions, srsRAN also features a virtual radio that uses the ZeroMQ networking library to transfer radio samples between applications. This software-based approach is advantageous for development, testing, debugging, and CI/CD, as it eliminates the need for hardware.
 
 <img src="/img/zmq.png" alt="srsRAN with ZMQ" >
+<p><em>Image credit: <a href="https://www.srsran.com/" target="_blank">srsRAN project</a></em></p>
 
 Step-by-step instructions for setting up the project with various configurations (Dockerized 5G core, non-Dockerized 5G core, single UE, multiple UEs, single gNB, multiple gNBs, FlexRIC, OSC RIC) can be found in the GitHub repository.
 
@@ -53,6 +54,7 @@ Step-by-step instructions for setting up the project with various configurations
 **Status**: <span style="color: #A95938;">Ongoing</span>
 
 <img src="/img/ota.png" alt="Over-the-Air (OTA) Setup" >
+<p><em>Image credit: <a href="https://www.srsran.com/" target="_blank">srsRAN project</a></em></p>
 
 The srsRAN project provides a 5G CU/DU solution but does not include a UE application. However, srsRAN 4G offers a prototype 5G UE (srsUE) for testing. The GitHub repository demonstrates how to create a fully open-source end-to-end 5G network using srsUE, the srsRAN project's gNB, and the Open5GS 5G core network, with a focus on establishing an Over-the-Air (OTA) setup using USRPs.
 
@@ -65,7 +67,15 @@ This setup can be used in labs without a radio license. No antennas are needed; 
 
 <img src="/img/usrp.png" alt="USRPs with COTS" >
 
-In this setup, we are utilizing srsRAN as our 5G core, along with two Ettus X310 USRPs equipped with an OctoClock-G. The configuration follows an 8-split architecture, featuring eight log-periodic antennas connected to two 2x2 MIMO base stations. Additionally, we have two commercial off-the-shelf (COTS) user equipment (UE) devices: one designed for enhanced mobile broadband (eMBB) and the other for ultra-reliable low-latency communications (URLLC).
+In this setup, we are utilizing srsRAN as our 5G core, along with two Ettus Research X310 USRPs equipped with an OctoClock-G. The configuration follows an 8-split architecture, featuring eight log-periodic antennas connected to two 2x2 MIMO base stations. Additionally, we have two commercial off-the-shelf (COTS) user equipment (UE) devices: one designed for enhanced mobile broadband (eMBB) and the other for ultra-reliable low-latency communications (URLLC).
+
+---
+
+#### 3. Commercial E2 Node (VIAVI Tester) with Commercial RIC (IS Wireless)
+
+**Status**: <span style="color: #A95938;">Ongoing</span>
+
+---
 
 ## Conclusion
 
