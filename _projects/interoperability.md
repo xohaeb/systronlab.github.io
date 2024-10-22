@@ -21,9 +21,7 @@ This project aims to enhance Radio Access Network (RAN) interoperability by brid
 **GitHub**: [uoy-research/oran-sc-ric-uoy](https://github.com/uoy-research/oran-sc-ric-uoy)<br>  
 **Status**: <span style="color: #A95938;">Ongoing</span>
 
-The source code of the OSC RIC was modified to address interoperability issues encountered during its integration with the VIAVI tester. The modified OSC RIC was successfully integrated, and a demonstration of an xApp collecting KPMs from the VIAVI tester is shown below.
-
-<iframe src="https://www.youtube.com/embed/JoFY1gdDWlo" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
+The source code of the OSC RIC was modified to address interoperability issues encountered during its integration with the VIAVI tester. The modified OSC RIC was successfully integrated, and currently our xApp is able to fetch KPMs from the VIAVI tester.
 
 **Upcoming Work:**
 
