@@ -75,6 +75,16 @@ In this setup, we are utilizing srsRAN as our 5G core, along with two Ettus Rese
 
 ---
 
+#### 4. Open-Source OpenRAN Gym
+OpenRAN Gym is an open-source toolbox that allows researchers to develop, test, and deploy AI/ML-based xApps on an O-RAN-compliant network. It provides a software pipeline for data collection, model training, and xApp deployment on RAN systems like srsRAN or OpenAirInterface, running on experimental platforms such as Colosseum or Arena. The platform’s flexibility enables users to collect data and design solutions in simulated environments before deploying them on production networks.
+
+##### 4.1 Configuring SCOPE for Data Collection and RAN Control
+SCOPE (Softwarization and Controllability for Open Programmable Environments) serves as the control and data collection layer within OpenRAN Gym, managing RAN slicing, scheduling, and other key performance metrics (KPMs). It builds on top of srsRAN and extends its functionality to support network slicing and dynamic scheduling policies, which can be modified at runtime through APIs.
+
+#### 4.2 Launching ColO-RAN Near-RT RIC in Colosseum
+ColO-RAN is the near-real-time RIC used in Colosseum to host and manage xApps within the OpenRAN Gym environment. Configuring it involves setting up Docker containers to manage E2 interface messages, routing, and database storage of RAN node details. 
+OpenRAN Gym provides template scripts for creating xApps, which are then packaged as Docker containers and instantiated on the RIC. The experimental environment, Colosseum, supports extensive data collection, generating datasets under varied wireless and traffic conditions.
+
 ## Conclusion
 
 Through these initiatives, we are making significant strides in improving RAN interoperability, which is crucial for the advancement of next-generation wireless networks.
